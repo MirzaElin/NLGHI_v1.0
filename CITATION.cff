@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "NLGHI — Newfoundland & Labrador Geriatric Health Index"
+message: "If this software is helpful, please cite it."
+type: software
+authors:
+  - family-names: Elin
+    given-names: Mirza Niaz Zaman
+    email: niazmirza111@gmail.com
+license: MIT
+version: 1.0.0
+date-released: 2025-08-31
+repository-code: https://github.com/REPLACE-WITH-OWNER/nlghi

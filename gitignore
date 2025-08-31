@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files / secrets
+.env
+.env.*
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.spec
+
+# Tests & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Tooling caches
+.mypy_cache/
+.pyright/
+.pyre/
+.pytype/
+ruff_cache/
+.cache/
+
+# Editors/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# --- NLGHI runtime data (do not commit) ---
+nlghi_patient_data.json
+nlghi_credentials.json
+nlghi_settings.json
+nlghi_audit.log
+backups/
+exports/
+
+# Release archives
+*.zip

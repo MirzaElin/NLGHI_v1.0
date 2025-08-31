@@ -1,0 +1,18 @@
+NLGHI JOSS Package - File Manifest
+.github/workflows/tests.yml
+CITATION.cff
+CONTRIBUTING.md
+LICENSE
+LICENSES-THIRD-PARTY.md
+NLGHI_App_MD.py
+NLGHI_App_Pro.py
+NLGHI_Article.docx
+NLGHI_Article.txt
+README.md
+paper.bib
+paper.md
+paperBib.bib
+requirements.txt
+test_invariants.py
+tests.yml
+tests/test_invariants.py
