@@ -1,0 +1,33 @@
+NLGHI v1.0: Research software to translate CGA into computable, longitudinal scores for older adults
+
+Author: Mirza Niaz Zaman Elin
+
+Summary
+
+NLGHI turns the traditionally narrative Comprehensive Geriatric Assessment into a quantitative, longitudinal measure aligned with the WHO’s holistic definition of health. It spans biomedical, functional, mental–behavioral, and social domains, each assigned a predefined weight to reflect clinical salience. At each visit, clinicians rate impairment per domain on a fixed 0–5 scale. Domain-Specific Aggregate Values (DSAVs) are computed as rating × domain weight, highlighting which domains drive risk. The overall Geriatric Health Index (GHI) summarizes status as GHI = Σ(DSAVs) / 27, enabling sensitive tracking, visualization, and standardized comparison across episodes and services. This structure supports earlier intervention for individuals and scalable analytics for clinical trials, health-services evaluation, and population health surveillance.
+
+Statement of Need
+
+Comprehensive Geriatric Assessment (CGA) is the current clinical standard for evaluating older adults, yet it remains largely qualitative and narrative (Palmer et al., 2018). While CGA’s multidimensional scope is indispensable, its outputs are not typically expressed as standardized, reproducible, and sensitive metrics. As a result, clinicians and researchers struggle to detect small but clinically meaningful changes over time, to compare outcomes across services, or to aggregate data for study and policy (Sum et al., 2022). This absence of quantification constrains timely recognition of deterioration, delays early intervention, and limits the ability to evaluate the effectiveness of individualized care plans. A computable, transparent, and longitudinally sensitive measure is therefore needed to complement CGA and unlock its full value in both clinical and population settings.
+
+The Newfoundland & Labrador Geriatric Health Index (NLGHI) addresses this gap by providing a structured, quantitative framework that preserves CGA’s holistic intent while producing standardized scores amenable to longitudinal tracking. Its domains are selected to align with the World Health Organization’s definition of health as encompassing physical, mental, and social well-being, not merely the absence of disease. Accordingly, the instrument spans biomedical conditions (e.g., cardiovascular, neurological), functional status and disability, mental and behavioral health, and key social determinants (e.g., social and economic well-being, dependence on supportive aids, exposure to neglect or abuse, and modifiable risk factors). This breadth ensures that the index captures the complex interplay of multimorbidity, function, cognition, and context that characterizes geriatric health (Al-Habbal et al., 2025).
+
+A population-agnostic tool is insufficient here: the health of older adults is distinct from that of other age groups. Multimorbidity, polypharmacy, frailty, atypical presentations, and reduced physiological reserve make single-disease indicators or general adult measures poor proxies for health status in later life. Moreover, outcomes that matter to older adults—maintenance of independence, preservation of cognition, avoidance of functional decline—often shift the clinical focus from disease control to capability and participation. By integrating domains tailored to these priorities, the NLGHI offers a customized approach that is more responsive to geriatric realities than generic indices.
+
+Quantification adds practical advantages that qualitative CGA lacks (Garrad et al., 2020). First, it increases sensitivity to gradual change: small domain-level shifts can be summarized and visualized, enabling clinicians to detect emerging risk and act before crises occur. Second, standardized scoring improves comparability across episodes of care, clinicians, and sites, supporting coordinated transitions and clearer communication with patients and families (Stephen et al., 2024). Third, quantification enables decision support: thresholds can trigger review, escalating support when risk accumulates. Finally, computable scores create analytic artifacts—time series, group summaries, and risk strata—that are essential for continuous quality improvement.
+
+Conflict of Interest Statement
+
+The author declare that he has no conflicts of interest related to this work.
+
+References
+
+Palmer, K., & Onder, G. (2018). Comprehensive geriatric assessment: Benefits and limitations. European Journal of Internal Medicine, 54, e8–e9. [https://doi.org/10.1016/j.ejim.2018.02.016](https://doi.org/10.1016/j.ejim.2018.02.016)
+
+Sum, G., Nicholas, S. O., Nai, Z. L., et al. (2022). Health outcomes and implementation barriers and facilitators of comprehensive geriatric assessment in community settings: A systematic integrative review \[PROSPERO registration no.: CRD42021229953]. BMC Geriatrics, 22, 379. [https://doi.org/10.1186/s12877-022-03024-4](https://doi.org/10.1186/s12877-022-03024-4)
+
+Al-Habbal, K., Yousef, S., Kaddoura, R., Hassan, Z., & El Zein, O. (2025). Promoting healthy ageing through measures addressing social determinants of older adults' health: a scoping review protocol. BMJ open, 15(7), e091079. https://doi.org/10.1136/bmjopen-2024-091079
+
+Garrard, J. W., Cox, N. J., Dodds, R. M., Roberts, H. C., & Sayer, A. A. (2020). Comprehensive geriatric assessment in primary care: a systematic review. Aging clinical and experimental research, 32(2), 197–205. https://doi.org/10.1007/s40520-019-01183-w
+
+Stephen, A., Connelly, D., Hung, L., & Unger, J. (2024). Staff-Family Communication Methods in Long-Term Care Homes: An Integrative Review. Journal of Long-term Care, 0(), 220–239.https://doi.org/10.1186/s12877-022-03024-4
