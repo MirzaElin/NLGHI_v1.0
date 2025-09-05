@@ -40,6 +40,10 @@ NLGHI implements a fixed list of domains with predefined weights reflecting clin
 
 Automated tests verify constants (domain count and weights) and the GHI calculation invariant. The repository includes instructions and a minimal CI workflow to run tests on pushes and pull requests. Manual quality checks include exercising the GUI to ensure charts render and scroll correctly for long longitudinal series.
 
+# Conflict of interest
+
+The author declares no competing interests.
+
 # Acknowledgements
 
 Thanks to the community of clinicians and developers who provided feedback during iterations of the interface and data model.
